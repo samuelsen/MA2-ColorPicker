@@ -1,0 +1,2038 @@
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://schemas.malighting.de/grandma2/xml/MA"
+    xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd"
+    major_vers="3" minor_vers="9" stream_vers="60">
+    <Info datetime="2022-09-11T07:52:31" showfile="" />
+    <Macro name="colormacroCreator">
+        <Macroline index="0">
+            <text>SetVar FILLEDIMAGES="30 thru 54"</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>SetVar UNFILLEDIMAGES="55 thru 79"</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>SetVar ALLCOLORIMAGESTART = 80</text>
+        </Macroline>
+        <Macroline index="3">
+            <text>SetVar SPOTCOLORIMAGESTART = 105</text>
+        </Macroline>
+        <Macroline index="4">
+            <text>SetVar WASHCOLORIMAGESTART = 130</text>
+        </Macroline>
+        <Macroline index="5">
+            <text>SetVar SHAPESCOLORIMAGESTART = 155</text>
+        </Macroline>
+        <Macroline index="6">
+            <text>SetVar LEDCOLORIMAGESTART = 180</text>
+        </Macroline>
+        <Macroline index="7">
+            <text>SetVar SPOT2COLORIMAGESTART = 205</text>
+        </Macroline>
+        <Macroline index="8">
+            <text>SetVar WASH2COLORIMAGESTART = 230</text>
+        </Macroline>
+        <Macroline index="9">
+            <text>SetVar C1 = "80 + 105 + 130 + 155 + 180 + 205 + 230"</text>
+        </Macroline>
+        <Macroline index="10">
+            <text>SetVar C2 = "81 + 106 + 131 + 156 + 181 + 206 + 231"</text>
+        </Macroline>
+        <Macroline index="11">
+            <text>SetVar C3 = "82 + 107 + 132 + 157 + 182 + 207 + 232"</text>
+        </Macroline>
+        <Macroline index="12">
+            <text>SetVar C4 = "83 + 108 + 133 + 158 + 183 + 208 + 233"</text>
+        </Macroline>
+        <Macroline index="13">
+            <text>SetVar C5 = "84 + 109 + 134 + 159 + 184 + 209 + 234"</text>
+        </Macroline>
+        <Macroline index="14">
+            <text>SetVar C6 = "85 + 110 + 135 + 160 + 185 + 210 + 235"</text>
+        </Macroline>
+        <Macroline index="15">
+            <text>SetVar C7 = "86 + 111 + 136 + 161 + 186 + 211 + 236"</text>
+        </Macroline>
+        <Macroline index="16">
+            <text>SetVar C8 = "87 + 112 + 137 + 162 + 187 + 212 + 237"</text>
+        </Macroline>
+        <Macroline index="17">
+            <text>SetVar C9 = "88 + 113 + 138 + 163 + 188 + 213 + 238"</text>
+        </Macroline>
+        <Macroline index="18">
+            <text>SetVar C10 = "89 + 114 + 139 + 164 + 189 + 214 + 239"</text>
+        </Macroline>
+        <Macroline index="19">
+            <text>SetVar C11 = "90 + 115 + 140 + 165 + 190 + 215 + 240"</text>
+        </Macroline>
+        <Macroline index="20">
+            <text>SetVar C12 = "91 + 116 + 141 + 166 + 191 + 216 + 241"</text>
+        </Macroline>
+        <Macroline index="21">
+            <text>SetVar C13 = "92 + 117 + 142 + 167 + 192 + 217 + 242"</text>
+        </Macroline>
+        <Macroline index="22">
+            <text>SetVar C14 = "93 + 118 + 143 + 168 + 193 + 218 + 243"</text>
+        </Macroline>
+        <Macroline index="23">
+            <text>SetVar C15 = "94 + 119 + 144 + 169 + 194 + 219 + 244"</text>
+        </Macroline>
+        <Macroline index="24">
+            <text>SetVar C16 = "95 + 120 + 145 + 170 + 195 + 220 + 245"</text>
+        </Macroline>
+        <Macroline index="25">
+            <text>SetVar C17 = "96 + 121 + 146 + 171 + 196 + 221 + 246"</text>
+        </Macroline>
+        <Macroline index="26">
+            <text>SetVar C18 = "97 + 122 + 147 + 172 + 197 + 222 + 247"</text>
+        </Macroline>
+        <Macroline index="27">
+            <text>SetVar C19 = "98 + 123 + 148 + 173 + 198 + 223 + 248"</text>
+        </Macroline>
+        <Macroline index="28">
+            <text>SetVar C20 = "99 + 124 + 149 + 174 + 199 + 224 + 249"</text>
+        </Macroline>
+        <Macroline index="29">
+            <text>SetVar C21 = "100 + 125 + 150 + 175 + 200 + 225 + 250"</text>
+        </Macroline>
+        <Macroline index="30">
+            <text>SetVar C22 = "101 + 126 + 151 + 176 + 201 + 226 + 251"</text>
+        </Macroline>
+        <Macroline index="31">
+            <text>SetVar C23 = "102 + 127 + 152 + 177 + 202 + 227 + 252"</text>
+        </Macroline>
+        <Macroline index="32">
+            <text>SetVar C24 = "103 + 128 + 153 + 178 + 203 + 228 + 253"</text>
+        </Macroline>
+        <Macroline index="33">
+            <text>SetVar C25 = "104 + 129 + 154 + 179 + 204 + 229 + 254"</text>
+        </Macroline>
+        <Macroline index="34">
+            <text>Copy Image $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC1">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 AT $C1 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 1 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC2">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 AT $C2 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 2 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC3">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 AT $C3 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 3 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC4">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 AT $C4 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 4 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC5">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 AT $C5 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 5 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC6">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 AT $C6 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 6 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC7">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 AT $C7 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 7 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC8">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 AT $C8 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 8 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC9">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 AT $C9 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 9 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC10">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 AT $C10 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 10 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC11">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 AT $C11 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 11 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC12">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 AT $C12 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 12 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC13">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 AT $C13 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 13 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC14">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 AT $C14 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 14 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC15">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 AT $C15 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 15 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC16">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 AT $C16 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 16 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC17">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 AT $C17 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 17 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC18">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 AT $C18 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 18 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC19">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 AT $C19 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 19 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC20">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 AT $C20 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 20 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 AT $C21 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 21 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 AT $C22 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 22 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 AT $C23 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 23 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 AT $C24 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 24 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="ALLC25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 AT $C25 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>Goto Cue 25 exec 99.1 thru 99.7</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT1">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 105 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT2">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 106 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT3">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 107 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT4">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 108 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT5">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 109 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT6">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 110 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT7">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 111 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT8">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 112 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT9">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 113 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT10">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 114 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT11">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 115 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT12">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 116 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT13">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 117 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT14">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 118 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT15">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 119 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT16">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 120 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT17">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 121 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT18">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 122 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT19">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 123 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT20">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 124 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 125 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 126 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 127 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 128 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOTCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 129 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.1</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH1">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 130 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH2">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 131 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH3">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 132 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH4">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 133 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH5">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 134 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH6">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 135 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH7">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 136 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH8">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 137 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH9">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 138 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH10">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 139 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH11">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 140 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH12">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 141 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH13">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 142 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH14">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 143 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH15">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 144 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH16">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 145 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH17">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 146 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH18">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 147 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH19">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 148 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH20">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 149 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 150 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 151 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 152 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 153 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASHCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 154 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.2</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES1">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 155 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES2">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 156 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES3">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 157 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES4">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 158 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES5">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 159 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES6">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 160 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES7">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 161 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES8">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 162 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES9">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 163 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES10">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 164 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES11">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 165 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES12">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 166 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES13">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 167 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES14">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 168 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES15">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 169 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES16">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 170 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES17">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 171 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES18">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 172 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES19">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 173 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES20">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 174 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 175 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 176 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 177 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 178 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SHAPES25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SHAPESCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 179 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.3</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED1">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 180 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED2">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 181 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED3">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 182 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED4">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 183 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED5">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 184 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED6">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 185 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED7">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 186 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED8">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 187 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED9">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 188 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED10">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 189 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED11">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 190 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED12">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 191 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED13">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 192 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED14">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 193 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED15">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 194 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED16">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 195 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED17">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 196 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED18">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 197 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED19">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 198 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED20">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 199 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 200 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 201 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 202 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 203 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="LED25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $LEDCOLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 204 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.4</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 205 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 206 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 207 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 208 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 209 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT26">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 210 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT27">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 211 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT28">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 212 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT29">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 213 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT210">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 214 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT211">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 215 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT212">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 216 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT213">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 217 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT214">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 218 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT215">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 219 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT216">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 220 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT217">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 221 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT218">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 222 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT219">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 223 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT220">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 224 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT221">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 225 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT222">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 226 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT223">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 227 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT224">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 228 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="SPOT225">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $SPOT2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 229 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.5</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH21">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 30 at 230 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 1 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH22">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 31 at 231 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 2 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH23">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 32 at 232 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 3 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH24">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 33 at 233 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 4 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH25">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 34 at 234 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 5 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH26">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 35 at 235 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 6 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH27">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 36 at 236 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 7 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH28">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 37 at 237 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 8 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH29">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 38 at 238 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 9 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH210">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 39 at 239 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 10 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH211">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 40 at 240 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 11 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH212">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 41 at 241 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 12 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH213">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 42 at 242 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 13 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH214">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 43 at 243 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 14 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH215">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 44 at 244 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 15 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH216">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 45 at 245 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 16 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH217">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 46 at 246 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 17 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH218">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 47 at 247 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 18 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH219">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 48 at 248 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 19 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH220">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 49 at 249 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 20 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH221">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 50 at 250 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 21 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH222">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 51 at 251 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 22 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH223">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 52 at 252 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 23 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH224">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 53 at 253 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 24 exec 99.6</text>
+        </Macroline>
+    </Macro>
+    <Macro name="WASH225">
+        <Macroline index="0">
+            <text>COPY IMAGE $UNFILLEDIMAGES at $WASH2COLORIMAGESTART /o; COPY IMAGE $UNFILLEDIMAGES at $ALLCOLORIMAGESTART /o</text>
+        </Macroline>
+        <Macroline index="1">
+            <text>COPY IMAGE 54 at 254 /o</text>
+        </Macroline>
+        <Macroline index="2">
+            <text>GoTo Cue 25 exec 99.6</text>
+        </Macroline>
+    </Macro>
+</MA>
